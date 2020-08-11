@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "sentia-adf-01"
+		},
+		"sourceconnection_accountKey": {
+			"value": ""
+		},
+		"sourceconnection_properties_typeProperties_url": {
+			"value": "https://sreenusentia.dfs.core.windows.net"
+		}
+	}
+}
